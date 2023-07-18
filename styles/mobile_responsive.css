@@ -1,0 +1,14 @@
+@media screen and (max-width: 425px) {
+
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav-menus ul,
+    .nav-menus {
+        flex-direction: column;
+    }
+   
+}
