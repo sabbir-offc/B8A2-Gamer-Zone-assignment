@@ -28,14 +28,17 @@
         background-image: url('../images/Group 18.png 4.png');
         padding: 50px;
     }
+    .banner-content-2{
+        padding: 20px;
+    }
     .banner-container-2{
         flex-direction: column;
-        margin-top: 250px;
+        margin-top: 350px;
         align-items: center;
     }
     .banner-content-2,
     .banner-img-2, .banner-description-2, .banner-container-2 {
-        max-width: 100%;
+        max-width: 425px;
     }
     .banner-img-2 img, .banner-img img, .banner-container{
         width: 100%;
