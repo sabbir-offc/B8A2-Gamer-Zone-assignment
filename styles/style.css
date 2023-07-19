@@ -6,22 +6,8 @@ body {
     padding: 0;
     margin: 0;
 }
-
-.primary-btn,
-.btn-2 {
-    display: inline-flex;
-    padding: 21px 40px;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 48px;
-    background: #FF42A5;
-    border: none;
-    color: #FFF;
-    font-size: 1.25rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-top: 40px;
-    margin-right: 24px;
+a{
+    text-decoration: none;
 }
 
 .primary-description {
@@ -61,11 +47,12 @@ body {
     align-items: center;
 }
 
-.nav-menus ul>li {
+.nav-menus ul li {
     list-style: none;
     color: #3C354F;
     font-size: 1rem;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .social-btn {
@@ -76,10 +63,22 @@ body {
     border-radius: 8px;
     background-color: rgba(11, 2, 35, 0.10);
     padding: 17px 25px;
+    transition: transform 2s;
 }
-
+.social-btn .fa-brands{
+    cursor: pointer;
+}
+.social-btn .fa-brands:hover{
+    transform: scale(1.5, 1.5);
+}
+.social-btn a{
+    text-decoration: none;
+    color: rgb(94, 89, 89);
+}
 .fa-youtube {
     margin: 0 24px 0 24px;
+    color: rgb(228, 73, 73);
+
 }
 
 /* banner style */
@@ -124,7 +123,36 @@ body {
 .banner-container p {
     margin: 0;
 }
-
+.primary-btn,
+.btn-2 {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FF42A5;
+    border: none;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-right: 24px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.primary-btn:hover{
+    background-color: transparent;
+    color: #FF42A5;
+    border: 3px solid #FF42A5;
+    padding: 18px 37px;
+}
+.btn-2:hover{
+    background-color: transparent;
+    color: #4EC5F7;
+    border: 3px solid #4EC5F7;
+    padding: 18px 37px;
+}
 .btn-2 {
     display: inline-flex;
     padding: 21px 40px;
@@ -139,45 +167,6 @@ body {
     text-transform: uppercase;
     border: none;
 }
-
-/* .banner-content-2,
-.banner-img-2 {
-    max-width: 40%;
-}
-
-.banner-container-2 {
-    display: flex;
-    justify-content: space-around;
-    height: 70vh;
-    align-items: center;
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-}
-
-.banner-title-2 {
-    font-size: 3rem;
-    font-weight: 700;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-
-
-.our-purpose {
-    color: #534C64;
-    font-size: 24px;
-    font-weight: 500;
-
-}
-
-.unleash {
-    color: #534C64;
-    font-size: 2rem;
-    font-weight: 700;
-    margin-top: 15px;
-} */
-
 /* games container */
 .games-container {
     height: auto;
@@ -426,7 +415,7 @@ footer {
 }
 
 .footer-menu ul,
-.useful-link ul {
+.useful-link ul{
     display: flex;
     justify-content: center;
     gap: 60px;
@@ -441,8 +430,8 @@ footer {
     line-height: normal;
     margin-bottom: 65px;
 }
-.footer-menu ul > li, .useful-link ul > li{
-    cursor: pointer;
+.footer-menu ul  li, .useful-link ul  li{
+    color: #FFF;
 }
 .social-icon {
     color: white;
@@ -457,7 +446,7 @@ footer {
     transition: transform 0.3s ;
     cursor: pointer;
 }
-.fa-brands:hover{
+footer .fa-brands:hover{
     transform: scale(1.5, 1.5);
 }
 .useful-link ul {
