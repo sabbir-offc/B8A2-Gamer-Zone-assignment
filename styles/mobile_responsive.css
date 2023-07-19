@@ -57,4 +57,35 @@
     .games-container{
         margin-top: 200px;
     }
+    .play-container{
+        margin-top: 1500px;
+        flex-direction: column;
+    }
+    .play-title,.play-description{
+        text-align: center;
+    }
+    .play-content,.play-img{
+        width: 100%;
+    }
+    .play-description{
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    .play-img{
+        margin-top: 0;
+        max-width: 100%;
+        align-items: center;
+        margin-left: 120px;
+
+    }
+    .play-img img{
+        max-width: 80%;
+        align-content: center;
+
+    }
+    .small-img{
+        right: 50px;
+        width: 50%;
+        top:400px
+    }
 }
