@@ -1,14 +1,57 @@
 @media screen and (max-width: 425px) {
+    body {
+        padding: 30px;
+    }
 
     .nav-container {
         flex-direction: column;
         align-items: center;
         gap: 10px;
+        width: 100%;
     }
 
     .nav-menus ul,
     .nav-menus {
         flex-direction: column;
+        align-items: center;
     }
-   
+
+    .banner-container
+     {
+        flex-direction: column-reverse;
+        margin-top: 250px;
+        width: 100%;
+        background-image: none;
+        gap: 20px;
+    }
+    .banner-content{
+        background-image: url('../images/Group 18.png 4.png');
+        padding: 50px;
+    }
+    .banner-container-2{
+        flex-direction: column;
+        margin-top: 250px;
+        align-items: center;
+    }
+    .banner-content-2,
+    .banner-img-2, .banner-description-2, .banner-container-2 {
+        max-width: 100%;
+    }
+    .banner-img-2 img, .banner-img img, .banner-container{
+        width: 100%;
+        padding: 0;
+    }
+    .our-purpose{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .card-container{
+        flex-direction: column;
+    }
+    .card-container img {
+        width: 300px;
+    }
+    .games-container{
+        margin-top: 200px;
+    }
 }
