@@ -63,7 +63,7 @@
         margin: 0 auto;
         margin-bottom: 20px;
         height: auto;
-        gap: 0;
+        gap: 5px;
         align-items: center;
         justify-items: center;
         padding-left: 20px;
@@ -72,6 +72,7 @@
     .play-title,
     .play-description {
         text-align: center;
+        
     }
 
     .play-content {
