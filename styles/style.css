@@ -187,11 +187,23 @@ a {
 
 .card-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 25px;
     align-items: center;
     cursor: pointer;
 }
-
+.flex-card{
+    display: flex;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+}
+.flex-card .games-card{
+    margin: 0;
+}
+.card-3{
+    margin-bottom: 20px;
+}
 .card-description {
     max-width: 80%;
     margin: 0 auto;

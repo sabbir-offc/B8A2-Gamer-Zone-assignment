@@ -46,14 +46,12 @@
         margin-top: 30px;
         height: auto;
     }
-
-    .card-container {
-        margin-top: 20px;
+    .flex-card{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
     }
-
     .card-container img {
         width: 310px;
     }

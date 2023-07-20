@@ -64,6 +64,10 @@
         justify-content: center;
         padding-left: 20px;
     }
+    .flex-card{
+        flex-direction: column;
+        justify-content: center;
+    }
     .game-card{
         margin-top: 20px;
     }
