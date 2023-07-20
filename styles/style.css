@@ -188,7 +188,7 @@ a {
 .card-container {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 13px;
     align-items: center;
     cursor: pointer;
 }
